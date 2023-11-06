@@ -15,4 +15,5 @@ public class InformationController {
     @Autowired
     private final InformationService informationService;
 
+
 }
