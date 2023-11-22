@@ -12,11 +12,11 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-public class News {
+public class News extends Information {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
     private String content;
     private Date datePosted;
 

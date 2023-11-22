@@ -1,13 +1,9 @@
 package com.news.controller;
 
-import com.news.entity.News;
-import com.news.entity.dto.NewsDto;
+import com.news.dto.NewsDto;
 import com.news.service.NewsService;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -36,21 +32,21 @@ public class NewsController {
 
     // Get a single news item by ID
     @GetMapping("/{id}")
-    public ResponseEntity<NewsDto> getNewsById(@PathVariable Long id) {
+    public ResponseEntity<NewsDto> getNewsById(@PathVariable Integer id) {
         NewsDto newsDto = newsService.getNewsById(id);
         return ResponseEntity.ok(newsDto);
     }
 
     // Update a news item
     @PutMapping("/{id}")
-    public ResponseEntity<NewsDto> updateNews(@PathVariable Long id, @RequestBody NewsDto newsDto) {
+    public ResponseEntity<NewsDto> updateNews(@PathVariable Integer id, @RequestBody NewsDto newsDto) {
         NewsDto updatedNews = newsService.updateNews(id, newsDto);
         return ResponseEntity.ok(updatedNews);
     }
 
     // Delete a news item
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteNews(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteNews(@PathVariable Integer id) {
         newsService.deleteNews(id);
         return ResponseEntity.ok().build();
     }

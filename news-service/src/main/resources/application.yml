@@ -1,1 +1,6 @@
+server:
+  port: 9191
 
+spring:
+  application:
+    name: news-service

@@ -5,36 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5614c5-f1c8-42d3-86a8-3be119f0f4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/ea/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/ea/AuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/controller/InformationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/controller/JobController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/controller/MessageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/AnnouncementDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/InformationDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/NewDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/dto/UpdatesDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/entity/Announcement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/entity/Information.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/entity/New.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/respository/InformationRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/respository/InformationRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/service/InformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/service/JobService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/service/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/service/impl/InformationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/service/impl/JobServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ea/project/service/impl/MessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/controller/InformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/controller/InformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/AnnouncementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/AnnouncementDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/InformationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/InformationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/NewsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/NewsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/UpdatesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/dto/UpdatesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Announcement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Replay.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Replay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Updates.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/entity/Updates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/repository/InformationRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/repository/InformationRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/repository/NewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/repository/NewsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/Implementation/InformationServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/Implementation/InformationServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/Implementation/NewsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/Implementation/NewsServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/InformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/InformationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/java/com/news/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,14 +57,23 @@
     </option>
   </component>
   <component name="ProjectId" id="2YUkkGrHWR7ZrBx69KDbGzXnVRv" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/dinomov/Documents/MIU/EA/labs/ea-nov-2023-project-1/api-gateway/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -65,6 +81,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,7 +94,7 @@
       <recent name="$PROJECT_DIR$/news-service/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.NewsApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.miu.apigateway.ApiGatewayApplication" />
@@ -110,7 +131,7 @@
       </method>
     </configuration>
     <configuration name="NewsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="news" />
+      <module name="news-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.news.NewsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />

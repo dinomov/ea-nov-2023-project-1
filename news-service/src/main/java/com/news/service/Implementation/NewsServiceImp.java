@@ -1,8 +1,9 @@
-package com.news.service;
+package com.news.service.Implementation;
 
 import com.news.entity.News;
-import com.news.entity.dto.NewsDto;
+import com.news.dto.NewsDto;
 import com.news.repository.NewsRepository;
+import com.news.service.NewsService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
@@ -36,39 +37,38 @@ public class NewsServiceImp implements NewsService {
     }
 
     @Override
-    public NewsDto getNewsById(Long id) {
+    public NewsDto getNewsById(Integer id) {
         News news = newsRepository.findById(id).orElseThrow(() ->
                 new ResponseStatusException(HttpStatus.NOT_FOUND, "News not found with id " + id));
         return modelMapper.map(news, NewsDto.class);
     }
 
     @Override
-    public void updateNews(long id, NewsDto newsDto) {
+    public NewsDto updateNews(Integer id, NewsDto newsDto) {
 
-    }
-
-
-
-    @Override
-    public NewsDto updateNews(Long id, NewsDto newsDto) {
-        if (!newsRepository.existsById(id)) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "News not found with id: " + id);
+        if(!newsRepository.existsById(id)){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Review not found with id: + id");
         }
         News news = modelMapper.map(newsDto, News.class);
-        news.setId(id);
+        news.setId(-1);
         News savedNews = newsRepository.save(news);
         return modelMapper.map(savedNews, NewsDto.class);
+
     }
 
     @Override
-    public void deleteNews(Long id) {
-        if (!newsRepository.existsById(id)) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "News not found with id " + id);
+    public void deleteNews(Integer id) {
+
+        if(!newsRepository.existsById(id)){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Review not found with id:" +id);
         }
         try {
             newsRepository.deleteById(id);
-        } catch (Exception e) {
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, e.getMessage());
+        } catch (Exception e){
+            throw  new ResponseStatusException(HttpStatus.NOT_FOUND, e.getMessage());
         }
+
     }
+
+
 }

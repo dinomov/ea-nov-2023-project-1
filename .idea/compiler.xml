@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="news" />
-        <module name="api-gateway" />
         <module name="authentication-service" />
-        <module name="user-service" />
+        <module name="news-service" />
         <module name="configuration-service" />
+        <module name="api-gateway" />
+        <module name="user-service" />
         <module name="discovery-service" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
       <module name="discovery-service" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="news" options="-parameters" />
+      <module name="news-service" options="-parameters" />
       <module name="project" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
