@@ -1,7 +1,7 @@
 package com.news.service;
 
 import com.news.entity.News;
-import com.news.entity.dto.NewsDto;
+import com.news.dto.NewsDto;
 import com.news.repository.NewsRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
