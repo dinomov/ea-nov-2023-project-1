@@ -1,0 +1,15 @@
+version: "3.1"
+
+services:
+  db:
+    container_name: project1
+    image: mysql
+    ports:
+      - "6000:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: developer
+      MYSQL_DB: alumni-db
+
+    restart: unless-stopped
+
+

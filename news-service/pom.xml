@@ -11,7 +11,7 @@
 	<groupId>com.news</groupId>
 	<artifactId>news</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>news</name>
+	<name>news-service</name>
 	<description>News microservice</description>
 	<properties>
 		<java.version>17</java.version>

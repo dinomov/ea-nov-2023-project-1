@@ -1,0 +1,17 @@
+FROM openjdk:17
+  
+  # Set the working directory in the container
+
+WORKDIR /app
+  
+  # Copy the Maven project (including the pom.xml file) to the container
+
+COPY target/project-0.0.1-SNAPSHOT.jar /app/api-user-service.jar
+  
+  # Expose the port your microservice will listen on (port 8761 in this case)
+
+EXPOSE 9898
+  
+  # Command to run the application
+
+CMD ["java", "-jar", "/app/api-user-service.jar"]
