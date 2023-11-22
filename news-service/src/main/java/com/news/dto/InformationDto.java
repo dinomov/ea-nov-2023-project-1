@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.news.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -45,3 +46,7 @@ public class InformationDto {
         return modelMapper.map(this, Announcement.class);
     }
 }
+=======
+package com.news.entity.dto;public class InformationDto {
+}
+>>>>>>> origin/news

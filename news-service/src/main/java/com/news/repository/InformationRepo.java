@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.news.repository;
 
 import com.news.entity.Information;
@@ -20,4 +21,7 @@ public interface InformationRepo extends ListCrudRepository<Information, Integer
 
     @Override
     List<Information> findAll();
+=======
+package com.news.repository;public class InformationRepo {
+>>>>>>> origin/news
 }

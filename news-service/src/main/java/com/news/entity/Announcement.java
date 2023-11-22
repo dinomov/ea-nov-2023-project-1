@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.news.entity;
 
 import jakarta.persistence.Entity;
@@ -12,4 +13,7 @@ import java.time.LocalDateTime;
 public class Announcement extends Information{
     private LocalDateTime endDateTime;
     private String isUrgent;
+=======
+package com.news.entity;public class Announcement {
+>>>>>>> origin/news
 }

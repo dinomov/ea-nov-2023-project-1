@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.news.service.Implementation;
 
 import com.news.dto.InformationDto;
@@ -53,4 +54,7 @@ public class InformationServiceImp implements InformationService {
         var result = modelMapper.map(information, InformationDto.class);
         return result;
     }
+=======
+package com.news.service.Implementation;public class InformationServieImp {
+>>>>>>> origin/news
 }

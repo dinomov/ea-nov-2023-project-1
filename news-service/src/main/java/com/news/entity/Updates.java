@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.news.entity;
 
 import jakarta.persistence.*;
@@ -16,4 +17,7 @@ public class Updates extends Information{
     @OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
     @JoinColumn(name="information_id")
     private List<Replay> replays;
+=======
+package com.news.entity;public class Updates {
+>>>>>>> origin/news
 }
