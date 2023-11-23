@@ -2,6 +2,8 @@ server:
   port: 9296
 
 spring:
+  application:
+    name: configuration-service
   profiles:
     active: native
 
