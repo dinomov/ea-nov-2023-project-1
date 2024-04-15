@@ -37,9 +37,9 @@ public class InformationDto {
     private String title;
 
     public Information getInformation(ModelMapper modelMapper) {
-        if(this.type.equals("news")){
+        if("news".equals(this.type)){
             return modelMapper.map(this, New.class);
-        }else if(this.type.equals("updates")){
+        }else if("updates".equals(this.type)){
             return modelMapper.map(this, Updates.class);
         }
         return modelMapper.map(this, Announcement.class);
